@@ -8,7 +8,7 @@ There are pearls across 5 elemental types: Fire, Air, Ice, Stone, and Ender.
 
 There are three flavors of pearls: the basic pearl, a "Greater" flavor, and an "Ultimate" flavor.
 
-##Summary of Added Pearls##
+## Summary of Added Pearls
 
 ### =*= Fire Pearls =*=
 **Fire Pearl**: creates fire where it lands
