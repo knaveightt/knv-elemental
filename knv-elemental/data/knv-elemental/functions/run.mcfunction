@@ -8,3 +8,6 @@ function knv-elemental:elemental/icepearl
 function knv-elemental:elemental/stonepearl
 function knv-elemental:elemental/enderpearl
 function knv-elemental:elemental/cooldownfix
+
+# creation and use of various crafting mechanisms
+function knv-elemental:crafting/knvframe
