@@ -3,11 +3,26 @@ Knave's Elemental Pearls: Minecraft datapack for more pearl types
 
 **Minecraft Version 1.15.2**
 
-This Minecraft data pack adds 14 new types of pearls alongside the current ender pearl.
+This in-progress Minecraft data pack adds 14 new types of pearls alongside the current ender pearl.
 
 There are pearls across 5 elemental types: Fire, Air, Ice, Stone, and Ender.
 
 There are three flavors of pearls: the basic pearl, a "Greater" flavor, and an "Ultimate" flavor.
+
+## How to Craft
+Step 1: Construct an energy frame by throwing an item frame, redstone, and quartz on the ground.
+
+Step 2: Place a dropper **face up** and place the energy frame on this dropper.
+
+Step 3: Place an ender pearl in the energy frame, the dropper should transform into a **Pearl Combinator**
+
+Step 4: Use the Pearl Combinator to craft the elemental pearls. Currently only the standard pearls are craftable, recipes for the Greater and Ultimate versions to follow:
+
+Fire Pearl: lapiz in the corners, with fire charges surrounding a stack of eight ender pearls in the middle
+Air Pearl: lapiz in the corners, with feathers surrounding a stack of eight ender pearls in the middle
+Ice Pearl: lapiz in the corners, with ice blocks surrounding a stack of eight ender pearls in the middle
+Stone Pearl: lapiz in the corners, with stone blocks surrounding a stack of eight ender pearls in the middle
+
 
 ## Summary of Added Pearls
 
@@ -52,7 +67,7 @@ There are three flavors of pearls: the basic pearl, a "Greater" flavor, and an "
 
 
 ## Upcoming Development
-Currently there is no way to craft the pearls. Current work is to incorporate aqcuiring the pearls through a mix of crafting and villager trading.
-
+Currently there is no way to craft the greater / ultimate pearl varients, however they are fully implemented. Current work is to incorporate aqcuiring the pearls through a mix of crafting and villager trading.
 Commands to follow to give pearls manually to players.
+Instructions to follow on how to install the data pack and associated resouce pack.
 
