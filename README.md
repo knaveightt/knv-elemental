@@ -19,8 +19,11 @@ Step 3: Place an ender pearl in the energy frame, the dropper should transform i
 Step 4: Use the Pearl Combinator to craft the elemental pearls. Currently only the standard pearls are craftable, recipes for the Greater and Ultimate versions to follow:
 
 Fire Pearl: lapiz in the corners, with fire charges surrounding a stack of eight ender pearls in the middle
+
 Air Pearl: lapiz in the corners, with feathers surrounding a stack of eight ender pearls in the middle
+
 Ice Pearl: lapiz in the corners, with ice blocks surrounding a stack of eight ender pearls in the middle
+
 Stone Pearl: lapiz in the corners, with stone blocks surrounding a stack of eight ender pearls in the middle
 
 
