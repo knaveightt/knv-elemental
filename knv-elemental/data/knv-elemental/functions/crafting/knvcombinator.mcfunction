@@ -29,3 +29,8 @@ execute as @e[tag=knvCombinator] at @s if block ~ ~1 ~ minecraft:dropper{Items:[
 # Standard
 execute as @e[tag=knvCombinator] at @s if block ~ ~1 ~ minecraft:dropper{Items:[{Slot:0b,id:"minecraft:lapis_lazuli",Count:1b},{Slot:1b,id:"minecraft:stone",Count:1b},{Slot:2b,id:"minecraft:lapis_lazuli",Count:1b},{Slot:3b,id:"minecraft:stone",Count:1b},{Slot:4b,id:"minecraft:ender_pearl",Count:8b},{Slot:5b,id:"minecraft:stone",Count:1b},{Slot:6b,id:"minecraft:lapis_lazuli",Count:1b},{Slot:7b,id:"minecraft:stone",Count:1b},{Slot:8b,id:"minecraft:lapis_lazuli",Count:1b}]} run data merge block ~ ~1 ~ {Items:[{Slot:4b,id:"minecraft:snowball",Count:8b,tag:{display:{Name:"[\"Stone Pearl\"]",Lore:["{\"text\":\"A stone pearl solid to the touch.\"}","{\"text\":\"Throw to create a minor explosion on impact.\"}"]},CustomModelData:10}}],CustomName:"{\"text\":\"Pearl Combinator\"}"}
 
+
+##########################
+# Elemental Totem Recipe #
+##########################
+execute as @e[tag=knvCombinator] at @s if block ~ ~1 ~ minecraft:dropper{Items:[{Slot:1b,id:"minecraft:snowball",Count:1b,tag:{display:{Name:"[\"Fire Pearl\"]"}}},{Slot:3b,id:"minecraft:snowball",Count:1b,tag:{display:{Name:"[\"Air Pearl\"]"}}},{Slot:4b,id:"minecraft:armor_stand",Count:1b},{Slot:5b,id:"minecraft:snowball",Count:1b,tag:{display:{Name:"[\"Ice Pearl\"]"}}},{Slot:7b,id:"minecraft:snowball",Count:1b,tag:{display:{Name:"[\"Stone Pearl\"]"}}}]} run data merge block ~ ~1 ~ {Items:[{Slot:4b,id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:"[\"Elemental Totem\"]",Lore:["{\"text\":\"Requires clerical sacrifice...\"}"]},Enchantments:[{id:"minecraft:power",lvl:1s}]},EntityTag:{Tags:["knvTotemElemental"]}}]}
