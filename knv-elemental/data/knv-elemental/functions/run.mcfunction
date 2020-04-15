@@ -12,3 +12,6 @@ function knv-elemental:elemental/cooldownfix
 # creation and use of various crafting mechanisms
 function knv-elemental:crafting/knvframe
 function knv-elemental:crafting/knvcombinator
+
+# creation and setup of associated villagers
+function knv-elemental:trading/elementalist
