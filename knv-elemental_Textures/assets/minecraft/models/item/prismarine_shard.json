@@ -8,13 +8,7 @@
             "predicate": {
                 "custom_model_data": 1
             },
-            "model": "item/chaos_shard"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 2
-            },
-            "model": "item/balanced_shard"
+            "model": "item/elemental_shard"
         }
     ]
 }
