@@ -38,6 +38,8 @@ Greater Ice Pearl: diamond in the corners, with elemental shards surrounding a s
 
 Greater Stone Pearl: diamond in the corners, with elemental shards surrounding a stack of eight Stone pearls
 
+Greater Ender Pearl: diamond in the corners, with elemental shards surrounding a stack of eight ender pearls
+
 
 ## Summary of Added Pearls
 
