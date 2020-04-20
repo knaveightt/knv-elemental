@@ -38,6 +38,11 @@ execute as @e[tag=knvCombinator] at @s if block ~ ~1 ~ minecraft:dropper{Items:[
 execute as @e[tag=knvCombinator] at @s if block ~ ~1 ~ minecraft:dropper{Items:[{Slot:0b,id:"minecraft:diamond",Count:1b},{Slot:1b,id:"minecraft:prismarine_shard",Count:1b,tag:{display:{Name:"[\"Elemental Shard\"]"}}},{Slot:2b,id:"minecraft:diamond",Count:1b},{Slot:3b,id:"minecraft:prismarine_shard",Count:1b,tag:{display:{Name:"[\"Elemental Shard\"]"}}},{Slot:4b,id:"minecraft:snowball",Count:8b,tag:{display:{Name:"[\"Stone Pearl\"]"}}},{Slot:5b,id:"minecraft:prismarine_shard",Count:1b,tag:{display:{Name:"[\"Elemental Shard\"]"}}},{Slot:6b,id:"minecraft:diamond",Count:1b},{Slot:7b,id:"minecraft:prismarine_shard",Count:1b,tag:{display:{Name:"[\"Elemental Shard\"]"}}},{Slot:8b,id:"minecraft:diamond",Count:1b}]} run data merge block ~ ~1 ~ {Items:[{Slot:4b,id:"minecraft:snowball",Count:8b,tag:{display:{Name:"[\"Greater Stone Pearl\"]",Lore:["{\"text\":\"A stone pearl vibrating and humming.\"}","{\"text\":\"Throw to produce gravitational waves, affecting surrouding blocks.\"}"]},CustomModelData:11}}],CustomName:"{\"text\":\"Pearl Combinator\"}"}
 
 
+# =============== Ender Pearls =============== #
+# Greater
+execute as @e[tag=knvCombinator] at @s if block ~ ~1 ~ minecraft:dropper{Items:[{Slot:0b,id:"minecraft:diamond",Count:1b},{Slot:1b,id:"minecraft:prismarine_shard",Count:1b,tag:{display:{Name:"[\"Elemental Shard\"]"}}},{Slot:2b,id:"minecraft:diamond",Count:1b},{Slot:3b,id:"minecraft:prismarine_shard",Count:1b,tag:{display:{Name:"[\"Elemental Shard\"]"}}},{Slot:4b,id:"minecraft:ender_pearl",Count:8b},{Slot:5b,id:"minecraft:prismarine_shard",Count:1b,tag:{display:{Name:"[\"Elemental Shard\"]"}}},{Slot:6b,id:"minecraft:diamond",Count:1b},{Slot:7b,id:"minecraft:prismarine_shard",Count:1b,tag:{display:{Name:"[\"Elemental Shard\"]"}}},{Slot:8b,id:"minecraft:diamond",Count:1b}]} run data merge block ~ ~1 ~ {Items:[{Slot:4b,id:"minecraft:snowball",Count:8b,tag:{display:{Name:"[\"Greater Ender Pearl\"]",Lore:["{\"text\":\"An ender pearl that's phasing in your hand.\"}","{\"text\":\"Throw to switch locations of the nearest player and entity.\"}"]},CustomModelData:13}}],CustomName:"{\"text\":\"Pearl Combinator\"}"}
+
+
 ##########################
 # Elemental Totem Recipe #
 ##########################
