@@ -16,7 +16,7 @@ Step 2: Place a dropper **face up** and place the energy frame on this dropper.
 
 Step 3: Place an ender pearl in the energy frame, the dropper should transform into a **Pearl Combinator**
 
-Step 4: Use the Pearl Combinator to craft the elemental pearls. Currently only the standard pearls are craftable, recipes for the Greater and Ultimate versions to follow:
+Step 4: Use the Pearl Combinator to craft the elemental pearls. Currently only the standard and Greater pearls are craftable, recipes for the Ultimate versions to follow:
 
 Fire Pearl: lapiz in the corners, with fire charges surrounding a stack of eight ender pearls in the middle
 
@@ -25,6 +25,18 @@ Air Pearl: lapiz in the corners, with feathers surrounding a stack of eight ende
 Ice Pearl: lapiz in the corners, with ice blocks surrounding a stack of eight ender pearls in the middle
 
 Stone Pearl: lapiz in the corners, with stone blocks surrounding a stack of eight ender pearls in the middle
+
+For Greater Pearl Variants, you will need to trade for the necessary crafting material with an elementalist villager. Create an elemental totel by placing an armor stand in the middle of the Pearl Combinator, and placing a fire pearl above it, air pearl to the left, ice pearl to the right, and stone pearl below. This will create an Elemental totem which you place next to a Cleric villager to transform them to an Elementalist.
+
+You trade with the elementalist to get Elemental Shards (there are also easy recipes for the base pearl types) which you will use to craft the below.
+
+Greater Fire Pearl: diamond in the corners, with elemental shards surrounding a stack of eight fire pearls
+
+Greater Air Pearl: diamond in the corners, with elemental shards surrounding a stack of eight Air pearls
+
+Greater Ice Pearl: diamond in the corners, with elemental shards surrounding a stack of eight Ice pearls
+
+Greater Stone Pearl: diamond in the corners, with elemental shards surrounding a stack of eight Stone pearls
 
 
 ## Summary of Added Pearls
@@ -70,7 +82,7 @@ Stone Pearl: lapiz in the corners, with stone blocks surrounding a stack of eigh
 
 
 ## Upcoming Development
-Currently there is no way to craft the greater / ultimate pearl varients, however they are fully implemented. Current work is to incorporate aqcuiring the pearls through a mix of crafting and villager trading.
+Currently there is no way to craft the ultimate pearl varients, however they are fully implemented. Current work is to incorporate aqcuiring the pearls through a mix of crafting and villager trading.
 Commands to follow to give pearls manually to players.
 Instructions to follow on how to install the data pack and associated resouce pack.
 
