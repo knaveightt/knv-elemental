@@ -12,7 +12,7 @@ First ensure you have created and saved new world in Minecraft. After this is do
 
 It is highly recommended to add the custom resource pack to make the elemental pearls and items look their best - also in the **.minecraft** folder is the **resourcepacks** directory, here you will need to drop the **knv-elemental_Textures** folder. Add the resourcepack like any normal resourcepack in-game, and you are set!
 
-Refer to the Wiki (in-progress) for more detailed installation instructions.
+Refer to the Wiki for more detailed installation instructions.
 
 ## Types of Pearls
 There are 14 new types of pearls added by this datapack. There are 3 types of pearls for each element (Fire, Air, Ice, Stone). There are also 2 additional types of ender pearls.  
@@ -55,23 +55,28 @@ There are 14 new types of pearls added by this datapack. There are 3 types of pe
 **Ultimate Stone Pearl**: "Grav Bomb", huge timed shockwave explosion    
 
 ## Acquiring Pearls In-Game
-**Note:** Refer to this project's wiki (in-progress) for specific crafting recipes 
+**Note:** Refer to this project's wiki for specific crafting recipes 
 
 Before being able to craft the basic elemental pearls, you will need to get yourself an Energy Frame, constructed by throwing an item frame, redstone, and quartz on the ground. With the Energy Frame (which can also be used to generate particle effects in the world!), you can construct the **Pearl Combinator** which is what is used for all further crafting recipes with this data pack. The Pearl Combinator is constructed by placing the Energy Frame ontop of a dropper that is facing up, and placing a regular Ender Pearl in the frame.
 
 From here, follow the provided recipes to construct the elemental pearls. The Greater and Ultimate forms of elemental pearls can only be crafted with materials that must be traded for by an Elementalist villager - you can summon one by crafting an **Elemental Totem** in the Pearl Combinator, and placing the totem near a Cleric villager. 
 
-A short summary of the crafting recipes are below, with more detail provided in the wiki (in-progress).   
+A short summary of the crafting recipes are below, with more detail provided in the wiki.   
 **Fire Pearl**: lapiz in the corners, with fire charges surrounding a stack of eight ender pearls in the middle   
 **Greater Fire Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight fire pearls   
+**Ultimate Fire Pearl**: elemental crystals in corners, nether star in the middle, remaining spaces have 2 greater fire pearls each   
 **Air Pearl**: lapiz in the corners, with feathers surrounding a stack of eight ender pearls in the middle   
 **Greater Air Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight Air pearls   
+**Ultimate Air Pearl**: elemental crystals in corners, nether star in the middle, remaining spaces have 2 greater air pearls each   
 **Ice Pearl**: lapiz in the corners, with ice blocks surrounding a stack of eight ender pearls in the middle   
 **Greater Ice Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight Ice pearls   
+**Ultimate Ice Pearl**: elemental crystals in corners, nether star in the middle, remaining spaces have 2 greater ice pearls each   
 **Stone Pearl**: lapiz in the corners, with stone blocks surrounding a stack of eight ender pearls in the middle   
 **Greater Stone Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight Stone pearls   
+**Ultimate Stone Pearl**: elemental crystals in corners, nether star in the middle, remaining spaces have 2 greater stone pearls each   
 **Greater Ender Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight ender pearls   
+**Ultimate Ender Pearl**: elemental crystals in corners, nether star in the middle, remaining spaces have 2 greater ender pearls each   
 
 ## Upcoming Development
-Currently there is no way to craft the ultimate pearl variants, however they are fully implemented. Current work is to incorporate acquiring the pearls through a mix of crafting and villager trading as described in the above sections.
+Development is being focused on updating pearl / material textures and Lore text. An in-game guide book is also being developed to guide the player in using crafting / using the pearls.
 Commands to follow to give pearls manually to players.
