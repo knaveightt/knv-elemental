@@ -54,6 +54,9 @@ There are 14 new types of pearls added by this datapack. There are 3 types of pe
 **Greater Stone Pearl**: Hardens obsidian to bedrock. Also transforms Stone->Magma->Lava and Cobble->Gravel->Sand->Glass   
 **Ultimate Stone Pearl**: "Grav Bomb", huge timed shockwave explosion    
 
+**Greater Ender Pearl**: Works like regular pearl, but attempt to switch positions of player with nearby entity  
+**Ultimate Ender Pearl**: "Dimensional Rift", destroyes blocks in a radius and TP's items to player. TP's other mobs to center with endermen.   
+
 ## Acquiring Pearls In-Game
 **Note:** Refer to this project's wiki for specific crafting recipes 
 
@@ -76,6 +79,7 @@ A short summary of the crafting recipes are below, with more detail provided in 
 **Ultimate Stone Pearl**: elemental crystals in corners, nether star in the middle, remaining spaces have 2 greater stone pearls each   
 **Greater Ender Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight ender pearls   
 **Ultimate Ender Pearl**: elemental crystals in corners, nether star in the middle, remaining spaces have 2 greater ender pearls each   
+**Elemental Totem**: armor stand in middle, with 1 fire pearl above, 1 air pearl to left, 1 ice pearl to right, 1 stone pearl below   
 
 ## Upcoming Development
 Development is being focused on updating pearl / material textures and Lore text. An in-game guide book is also being developed to guide the player in using crafting / using the pearls.
