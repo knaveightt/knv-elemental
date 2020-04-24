@@ -1,90 +1,77 @@
-# knv-elemental
-Knave's Elemental Pearls: Minecraft datapack for more pearl types
-
+# Knave's Elemental Pearls
 **Minecraft Version 1.15.2**
 
-This in-progress Minecraft data pack adds 14 new types of pearls alongside the current ender pearl.
+This in-progress Minecraft data pack adds *14 new types* of pearls alongside the current ender pearl. There are pearls across 5 elemental types: Fire, Air, Ice, Stone, and Ender.
 
-There are pearls across 5 elemental types: Fire, Air, Ice, Stone, and Ender.
+There are three flavors of pearls: the basic pearl, a "Greater" flavor which offers greater utility and power, and a devastating  "Ultimate" variant with spectacular (vanilla-friendly) effects.
 
-There are three flavors of pearls: the basic pearl, a "Greater" flavor, and an "Ultimate" flavor.
+## Installing the Data Pack
+Download the zip file of the latest datapack release. The zip file will contain two folders, a **knv-elemental** folder which is the actual datapack, and a **knv-elemental_Textures** folder which is the optional resource pack for the pearls. 
 
-## How to Craft
-Step 1: Construct an energy frame by throwing an item frame, redstone, and quartz on the ground.
+First ensure you have created and saved new world in Minecraft. After this is done, browse to your **.minecraft** folder and find the saves directory. Open the folder for the world you just created, and you will find the **datapacks** directory. Drop the **knv-elemental** folder in this directory and you are good to go!
 
-Step 2: Place a dropper **face up** and place the energy frame on this dropper.
+It is highly recommended to add the custom resource pack to make the elemental pearls and items look their best - also in the **.minecraft** folder is the **resourcepacks** directory, here you will need to drop the **knv-elemental_Textures** folder. Add the resourcepack like any normal resourcepack in-game, and you are set!
 
-Step 3: Place an ender pearl in the energy frame, the dropper should transform into a **Pearl Combinator**
+Refer to the Wiki (in-progress) for more detailed installation instructions.
 
-Step 4: Use the Pearl Combinator to craft the elemental pearls. Currently only the standard and Greater pearls are craftable, recipes for the Ultimate versions to follow:
+## Types of Pearls
+There are 14 new types of pearls added by this datapack. There are 3 types of pearls for each element (Fire, Air, Ice, Stone). There are also 2 additional types of ender pearls.  
 
-Fire Pearl: lapiz in the corners, with fire charges surrounding a stack of eight ender pearls in the middle
+|               | Fire       | Air        | Ice        | Stone      | Ender      | 
+| ------------- | :--------: | :--------: | :--------: | :--------: | :--------: |
+| **(Basic)**   |![FP][fp]   |![AP][ap]   |![IP][ip]   |![SP][sp]   | (in game)  |
+| **Greater**   |![GFP][gfp] |![GAP][gap] |![GIP][gip] |![GSP][gsp] |![GEP][gep] |
+| **Ultimate**  |![UFP][ufp] |![UAP][uap] |![UIP][uip] |![USP][usp] |![UEP][uep] |
 
-Air Pearl: lapiz in the corners, with feathers surrounding a stack of eight ender pearls in the middle
+[fp]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/fire_pearl.png?raw=true "Fire Pearl"
+[gfp]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/fire_pearl_greater.png?raw=true "Greater Fire Pearl"
+[ufp]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/fire_pearl_ultimate.png?raw=true "Ultimate Fire Pearl"
+[ap]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/air_pearl.png?raw=true "Air Pearl"
+[gap]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/air_pearl_greater.png?raw=true "Greater Air Pearl"
+[uap]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/air_pearl_ultimate.png?raw=true "Ultimate Air Pearl"
+[ip]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/ice_pearl.png?raw=true "Ice Pearl"
+[gip]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/ice_pearl_greater.png?raw=true "Greater Ice Pearl"
+[uip]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/ice_pearl_ultimate.png?raw=true "Ultimate Ice Pearl"
+[sp]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/stone_pearl.png?raw=true "Stone Pearl"
+[gsp]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/stone_pearl_greater.png?raw=true "Greater Stone Pearl"
+[usp]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/stone_pearl_ultimate.png?raw=true "Ultimate Stone Pearl"
+[gep]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/ender_pearl_greater.png?raw=true "Greater Ender Pearl"
+[uep]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/ender_pearl_ultimate.png?raw=true "Ultimate Ender Pearl"
 
-Ice Pearl: lapiz in the corners, with ice blocks surrounding a stack of eight ender pearls in the middle
-
-Stone Pearl: lapiz in the corners, with stone blocks surrounding a stack of eight ender pearls in the middle
-
-For Greater Pearl Variants, you will need to trade for the necessary crafting material with an elementalist villager. Create an elemental totel by placing an armor stand in the middle of the Pearl Combinator, and placing a fire pearl above it, air pearl to the left, ice pearl to the right, and stone pearl below. This will create an Elemental totem which you place next to a Cleric villager to transform them to an Elementalist.
-
-You trade with the elementalist to get Elemental Shards (there are also easy recipes for the base pearl types) which you will use to craft the below.
-
-Greater Fire Pearl: diamond in the corners, with elemental shards surrounding a stack of eight fire pearls
-
-Greater Air Pearl: diamond in the corners, with elemental shards surrounding a stack of eight Air pearls
-
-Greater Ice Pearl: diamond in the corners, with elemental shards surrounding a stack of eight Ice pearls
-
-Greater Stone Pearl: diamond in the corners, with elemental shards surrounding a stack of eight Stone pearls
-
-Greater Ender Pearl: diamond in the corners, with elemental shards surrounding a stack of eight ender pearls
-
-
-## Summary of Added Pearls
-
-### =*= Fire Pearls =*=
 **Fire Pearl**: creates fire where it lands
-
 **Greater Fire Pearl**: turns into a [ghast] fireball
-
 **Ultimate Fire Pearl**: "Firestorm", throws a fireball which continuously spawns firebombs
 
-
-### =*= Air Pearls =*=
 **Air Pearl**: Lightning strikes where it lands
-
 **Greater Air Pearl**: More lightning strikes where it lands, creates AOE cloud that launches entities
-
 **Ultimate Air Pearl**: "Tornado", creates a column of AOE clouds that harm and toss mobs to the sky
 
-
-### =*= Ice Pearls =*=
 **Ice Pearl**: Creates cube of ice which breaks after a while
-
 **Greater Ice Pearl**: Turns ground to ice and slows mobs, destroys ground blocks
-
 **Ultimate Ice Pearl**: "Ice Bridge", creates a bridge of ice, harms mobs that pass over it
 
-
-### =*= Stone Pearls =*=
 **Stone Pearl**: creates small explosion on impact
-
 **Greater Stone Pearl**: Hardens obsidian to bedrock. Also transforms Stone->Magma->Lava and Cobble->Gravel->Sand->Glass
-
 **Ultimate Stone Pearl**: "Grav Bomb", huge timed shockwave explosion 
 
+## Acquiring Pearls In-Game
+**Note:** Refer to this project's wiki (in-progress) for specific crafting recipes 
 
-### =*= Ender Pearls =*=
-**Ender Pearl**: Already in base game, no changes
+Before being able to craft the basic elemental pearls, you will need to get yourself an Energy Frame, constructed by throwing an item frame, redstone, and quartz on the ground. With the Energy Frame (which can also be used to generate particle effects in the world!), you can construct the **Pearl Combinator** which is what is used for all further crafting recipes with this data pack. The Pearl Combinator is constructed by placing the Energy Frame ontop of a dropper that is facing up, and placing a regular Ender Pearl in the frame.
 
-**Greater Ender Pearl**: Works like the regular pearl, except if landed near a mob, switchs position of mob and player
+From here, follow the provided recipes to construct the elemental pearls. The Greater and Ultimate forms of elemental pearls can only be crafted with materials that must be traded for by an Elementalist villager - you can summon one by crafting an **Elemental Totem** in the Pearl Combinator, and placing the totem near a Cleric villager. 
 
-**Ultimate Ender Pearl**: "Dimension Shift", Destroys large area of land, tp's all mobs to location and spawns enderman. All destoryed items tp to player
-
+A short summary of the crafting recipes are below, with more detail provided in the wiki (in-progress).
+**Fire Pearl**: lapiz in the corners, with fire charges surrounding a stack of eight ender pearls in the middle
+**Greater Fire Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight fire pearls
+**Air Pearl**: lapiz in the corners, with feathers surrounding a stack of eight ender pearls in the middle
+**Greater Air Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight Air pearls
+**Ice Pearl**: lapiz in the corners, with ice blocks surrounding a stack of eight ender pearls in the middle
+**Greater Ice Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight Ice pearls
+**Stone Pearl**: lapiz in the corners, with stone blocks surrounding a stack of eight ender pearls in the middle
+**Greater Stone Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight Stone pearls
+**Greater Ender Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight ender pearls
 
 ## Upcoming Development
-Currently there is no way to craft the ultimate pearl varients, however they are fully implemented. Current work is to incorporate aqcuiring the pearls through a mix of crafting and villager trading.
+Currently there is no way to craft the ultimate pearl variants, however they are fully implemented. Current work is to incorporate acquiring the pearls through a mix of crafting and villager trading as described in the above sections.
 Commands to follow to give pearls manually to players.
-Instructions to follow on how to install the data pack and associated resouce pack.
-
