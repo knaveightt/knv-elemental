@@ -38,21 +38,21 @@ There are 14 new types of pearls added by this datapack. There are 3 types of pe
 [gep]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/ender_pearl_greater.png?raw=true "Greater Ender Pearl"
 [uep]: https://github.com/knaveightt/knv-elemental/blob/master/knv-elemental_Textures/assets/minecraft/textures/item/ender_pearl_ultimate.png?raw=true "Ultimate Ender Pearl"
 
-**Fire Pearl**: creates fire where it lands
-**Greater Fire Pearl**: turns into a [ghast] fireball
-**Ultimate Fire Pearl**: "Firestorm", throws a fireball which continuously spawns firebombs
+**Fire Pearl**: creates fire where it lands   
+**Greater Fire Pearl**: turns into a [ghast] fireball   
+**Ultimate Fire Pearl**: "Firestorm", throws a fireball which continuously spawns firebombs   
 
-**Air Pearl**: Lightning strikes where it lands
-**Greater Air Pearl**: More lightning strikes where it lands, creates AOE cloud that launches entities
-**Ultimate Air Pearl**: "Tornado", creates a column of AOE clouds that harm and toss mobs to the sky
+**Air Pearl**: Lightning strikes where it lands   
+**Greater Air Pearl**: More lightning strikes where it lands, creates AOE cloud that launches entities   
+**Ultimate Air Pearl**: "Tornado", creates a column of AOE clouds that harm and toss mobs to the sky   
 
-**Ice Pearl**: Creates cube of ice which breaks after a while
-**Greater Ice Pearl**: Turns ground to ice and slows mobs, destroys ground blocks
-**Ultimate Ice Pearl**: "Ice Bridge", creates a bridge of ice, harms mobs that pass over it
+**Ice Pearl**: Creates cube of ice which breaks after a while   
+**Greater Ice Pearl**: Turns ground to ice and slows mobs, destroys ground blocks   
+**Ultimate Ice Pearl**: "Ice Bridge", creates a bridge of ice, harms mobs that pass over it   
 
-**Stone Pearl**: creates small explosion on impact
-**Greater Stone Pearl**: Hardens obsidian to bedrock. Also transforms Stone->Magma->Lava and Cobble->Gravel->Sand->Glass
-**Ultimate Stone Pearl**: "Grav Bomb", huge timed shockwave explosion 
+**Stone Pearl**: creates small explosion on impact   
+**Greater Stone Pearl**: Hardens obsidian to bedrock. Also transforms Stone->Magma->Lava and Cobble->Gravel->Sand->Glass   
+**Ultimate Stone Pearl**: "Grav Bomb", huge timed shockwave explosion    
 
 ## Acquiring Pearls In-Game
 **Note:** Refer to this project's wiki (in-progress) for specific crafting recipes 
@@ -61,16 +61,16 @@ Before being able to craft the basic elemental pearls, you will need to get your
 
 From here, follow the provided recipes to construct the elemental pearls. The Greater and Ultimate forms of elemental pearls can only be crafted with materials that must be traded for by an Elementalist villager - you can summon one by crafting an **Elemental Totem** in the Pearl Combinator, and placing the totem near a Cleric villager. 
 
-A short summary of the crafting recipes are below, with more detail provided in the wiki (in-progress).
-**Fire Pearl**: lapiz in the corners, with fire charges surrounding a stack of eight ender pearls in the middle
-**Greater Fire Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight fire pearls
-**Air Pearl**: lapiz in the corners, with feathers surrounding a stack of eight ender pearls in the middle
-**Greater Air Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight Air pearls
-**Ice Pearl**: lapiz in the corners, with ice blocks surrounding a stack of eight ender pearls in the middle
-**Greater Ice Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight Ice pearls
-**Stone Pearl**: lapiz in the corners, with stone blocks surrounding a stack of eight ender pearls in the middle
-**Greater Stone Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight Stone pearls
-**Greater Ender Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight ender pearls
+A short summary of the crafting recipes are below, with more detail provided in the wiki (in-progress).   
+**Fire Pearl**: lapiz in the corners, with fire charges surrounding a stack of eight ender pearls in the middle   
+**Greater Fire Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight fire pearls   
+**Air Pearl**: lapiz in the corners, with feathers surrounding a stack of eight ender pearls in the middle   
+**Greater Air Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight Air pearls   
+**Ice Pearl**: lapiz in the corners, with ice blocks surrounding a stack of eight ender pearls in the middle   
+**Greater Ice Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight Ice pearls   
+**Stone Pearl**: lapiz in the corners, with stone blocks surrounding a stack of eight ender pearls in the middle   
+**Greater Stone Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight Stone pearls   
+**Greater Ender Pearl**: diamond in the corners, with elemental shards surrounding a stack of eight ender pearls   
 
 ## Upcoming Development
 Currently there is no way to craft the ultimate pearl variants, however they are fully implemented. Current work is to incorporate acquiring the pearls through a mix of crafting and villager trading as described in the above sections.
