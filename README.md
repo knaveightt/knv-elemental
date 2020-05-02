@@ -83,4 +83,4 @@ A short summary of the crafting recipes are below, with more detail provided in 
 
 ## Upcoming Development
 Development is being focused on updating pearl / material textures and Lore text. An in-game guide book is also being developed to guide the player in using crafting / using the pearls.
-Commands to follow to give pearls manually to players.
+Wiki pages are being updated as well. Commands to follow to give pearls manually to players.
