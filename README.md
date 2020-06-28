@@ -55,7 +55,7 @@ There are 14 new types of pearls added by this datapack. There are 3 types of pe
 **Ultimate Stone Pearl**: "Grav Bomb", huge timed shockwave explosion    
 
 **Greater Ender Pearl**: Works like regular pearl, but attempt to switch positions of player with nearby entity  
-**Ultimate Ender Pearl**: "Dimensional Rift", destroyes blocks in a radius and TP's items to player. TP's other mobs to center with endermen.   
+**Ultimate Ender Pearl**: "Dimensional Rift", TP's items to player. TP's other mobs to center with endermen in a large area.   
 
 ## Acquiring Pearls In-Game
 **Note:** Refer to this project's wiki for specific crafting recipes 

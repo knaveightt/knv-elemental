@@ -1,6 +1,6 @@
 # New Ender Pearls
 # - Greater: Swaps the nearest player with the nearest entity wherever it lands
-# - Ultimate: completely wipes an area, tps all non-item entities to the loc with enderman,
+# - Ultimate: tps all non-item entities to the loc with enderman,
 #             and tps all items to the player
 #
 # Note: Greater and Ultimate forms of ender pearls will give the player the glowing effect
@@ -64,7 +64,8 @@ execute as @e[type=minecraft:armor_stand,tag=EndNoHit2,scores={knvElemental=1}] 
 execute as @e[type=minecraft:armor_stand,tag=EndHit2,scores={knvElemental=2}] at @s run kill @s
 execute as @e[type=minecraft:armor_stand,tag=EndHit2] at @s positioned ~ ~-2 ~ run tag @p[scores={knvElemental=19}] add EndUltP 
 
-execute as @e[type=minecraft:armor_stand,tag=EndHit2] at @s positioned ~ ~-2 ~ run fill ~6 ~6 ~6 ~-6 ~-6 ~-6 minecraft:air destroy
+# execute as @e[type=minecraft:armor_stand,tag=EndHit2] at @s positioned ~ ~-2 ~ run fill ~6 ~6 ~6 ~-6 ~-6 ~-6 minecraft:air destroy
+# commenting out the above, may be too OP. 
 execute as @e[type=minecraft:armor_stand,tag=EndHit2] at @s positioned ~ ~-2 ~ run summon minecraft:enderman ~ ~ ~
 execute as @e[type=minecraft:armor_stand,tag=EndHit2] at @s positioned ~ ~-2 ~ run summon minecraft:enderman ~ ~ ~
 execute as @e[type=minecraft:armor_stand,tag=EndHit2] at @s positioned ~ ~-2 ~ run summon minecraft:enderman ~ ~ ~
