@@ -73,7 +73,7 @@ execute as @a[scores={knvElemental=12}] at @s run effect give @e[distance=2..9,l
 execute as @e[type=minecraft:snowball,tag=SuperIce] at @s positioned ~ ~-2 ~ run fill ~1 ~ ~1 ~-1 ~ ~-1 minecraft:blue_ice replace
 execute as @e[type=minecraft:snowball,tag=SuperIce] at @s run scoreboard players add @s knvElemental 1
 execute as @e[type=minecraft:snowball,tag=SuperIce,scores={knvElemental=2}] at @s run summon minecraft:armor_stand ~ ~-1 ~ {NoGravity:1b,Invisible:1b,Tags:["SuperIceBreak"],Marker:1b}
-execute as @e[type=minecraft:snowball,tag=SuperIce,scores={knvElemental=2}] at @s run summon area_effect_cloud ~ ~-1 ~ {NoGravity:1b,Particle:"mobSpell",ReapplicationDelay:0,Radius:5f,Duration:140,WaitTime:0,Color:6714879}
+execute as @e[type=minecraft:snowball,tag=SuperIce,scores={knvElemental=2}] at @s run summon area_effect_cloud ~ ~-1 ~ {NoGravity:1b,Particle:"block air",ReapplicationDelay:0,Radius:5f,Duration:140,WaitTime:0,Color:6714879}
 execute as @e[type=minecraft:snowball,tag=SuperIce,scores={knvElemental=3}] at @s run scoreboard players set @s knvElemental 0
 execute as @e[type=minecraft:armor_stand,tag=SuperIceBreak] at @s run scoreboard players add @s knvElemental 1
 execute as @e[type=minecraft:armor_stand,tag=SuperIceBreak] at @s run effect give @e[distance=..6,type=!minecraft:player] minecraft:slowness 1 8
