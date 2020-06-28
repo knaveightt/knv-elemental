@@ -47,16 +47,16 @@ execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:snowball",tag:{display:{
 execute as @a[scores={knvElemental=4}] run effect give @s minecraft:fire_resistance 1 10
 execute as @a[scores={knvElemental=4}] at @s positioned as @e[type=minecraft:snowball,distance=2..4,limit=1] rotated as @s run summon minecraft:fireball ^ ^ ^2 {Name:"FireStorm",ExplosionPower:2,direction:[0.0,0.0,0.0],Tags:["firestorm"]}
 scoreboard players add @e[tag=firestorm] knvElemental 1
-execute as @e[tag=firestorm,scores={knvElemental=5}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,direction:[0.0,-1.0,0.0],Tags:["firestormBullet"]}
-execute as @e[tag=firestorm,scores={knvElemental=10}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,direction:[0.0,-1.0,0.0],Tags:["firestormBullet"]}
-execute as @e[tag=firestorm,scores={knvElemental=15}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,direction:[0.0,-1.0,0.0],Tags:["firestormBullet"]}
-execute as @e[tag=firestorm,scores={knvElemental=20}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,direction:[0.0,-1.0,0.0],Tags:["firestormBullet"]}
-execute as @e[tag=firestorm,scores={knvElemental=25}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,direction:[0.0,-1.0,0.0],Tags:["firestormBullet"]}
-execute as @e[tag=firestorm,scores={knvElemental=30}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,direction:[0.0,-1.0,0.0],Tags:["firestormBullet"]}
-execute as @e[tag=firestorm,scores={knvElemental=35}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,direction:[0.0,-1.0,0.0],Tags:["firestormBullet"]}
-execute as @e[tag=firestorm,scores={knvElemental=40}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,direction:[0.0,-1.0,0.0],Tags:["firestormBullet"]}
-execute as @e[tag=firestorm,scores={knvElemental=45}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,direction:[0.0,-1.0,0.0],Tags:["firestormBullet"]}
-execute as @e[tag=firestorm,scores={knvElemental=50}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,direction:[0.0,-1.0,0.0],Tags:["firestormBullet"]}
+execute as @e[tag=firestorm,scores={knvElemental=5}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,Motion:[0.0,-4.0,0.0],Tags:["firestormBullet"]}
+execute as @e[tag=firestorm,scores={knvElemental=10}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,Motion:[0.0,-4.0,0.0],Tags:["firestormBullet"]}
+execute as @e[tag=firestorm,scores={knvElemental=15}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,Motion:[0.0,-4.0,0.0],Tags:["firestormBullet"]}
+execute as @e[tag=firestorm,scores={knvElemental=20}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,Motion:[0.0,-4.0,0.0],Tags:["firestormBullet"]}
+execute as @e[tag=firestorm,scores={knvElemental=25}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,Motion:[0.0,-4.0,0.0],Tags:["firestormBullet"]}
+execute as @e[tag=firestorm,scores={knvElemental=30}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,Motion:[0.0,-4.0,0.0],Tags:["firestormBullet"]}
+execute as @e[tag=firestorm,scores={knvElemental=35}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,Motion:[0.0,-4.0,0.0],Tags:["firestormBullet"]}
+execute as @e[tag=firestorm,scores={knvElemental=40}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,Motion:[0.0,-4.0,0.0],Tags:["firestormBullet"]}
+execute as @e[tag=firestorm,scores={knvElemental=45}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,Motion:[0.0,-4.0,0.0],Tags:["firestormBullet"]}
+execute as @e[tag=firestorm,scores={knvElemental=50}] at @s run summon minecraft:fireball ^ ^ ^2 {Name:"BulletFireStorm",ExplosionPower:4,Motion:[0.0,-4.0,0.0],Tags:["firestormBullet"]}
 execute as @e[tag=firestorm] at @s run particle minecraft:flame ~ ~ ~ ~ ~ ~ 0.1 100
 execute as @e[tag=firestorm,scores={knvElemental=50..}] run kill @s
 execute as @a[scores={knvElemental=4}] run scoreboard players remove @s knvElCooldown 1
