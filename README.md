@@ -1,5 +1,5 @@
 # Knave's Elemental Pearls
-**Minecraft Version 1.16.1**
+**Minecraft Version 1.16.3**
 
 This in-progress Minecraft data pack adds *14 new types* of pearls alongside the current ender pearl. There are pearls across 5 elemental types: Fire, Air, Ice, Stone, and Ender.
 
